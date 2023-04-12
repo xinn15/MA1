@@ -8,12 +8,12 @@ class instruction2 extends Phaser.Scene {
 
     preload(){
     // intro image
-    this.load.image('instruction2', 'assets/instruction2.jpg');
+    this.load.image('instruction2', 'assets/Instruction2.jpg');
     
     }
 
     create() {
-        this.add.image(0, 0, 'instruction2').setOrigin(0, 0);
+        this.add.image(0, 0, 'Instruction2').setOrigin(0, 0);
         this.spacesnd = this.sound.add("space").setVolume(0.2);
 
         console.log("This is instruction2");
